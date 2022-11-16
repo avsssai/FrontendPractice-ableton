@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+	.text-heading {
+		@apply text-lg lg:text-3xl lg:w-textWidth xl:w-textWidthXL font-medium leading-8 mb-textMargin mt-sectionMargin;
+	}
+	.text-paragraph {
+		@apply text-sm leading-6 lg:text-lg lg:w-textWidth xl:w-textWidthXL;
+	}
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",

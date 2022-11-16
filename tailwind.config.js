@@ -13,6 +13,7 @@ module.exports = {
 				landing: "8.333vw",
 				textMargin: "0.7em",
 				sectionMargin: "8.333vw",
+				sectionMarginXL: "133px",
 			},
 			minHeight: {
 				landingImage: `calc(100vh - 120px)`,
@@ -22,6 +23,8 @@ module.exports = {
 			},
 			width: {
 				halfPlusMargin: `calc(50vw + 8.33vw)`,
+				textWidth: "66.6667vw",
+				textWidthXL: "800px",
 			},
 			padding: {
 				sectionCardPadding: "8.333vw",
