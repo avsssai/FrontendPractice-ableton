@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FrontendPractice-ableton/static/css/main.9276184b.css",
+    "main.js": "/FrontendPractice-ableton/static/js/main.cc827e56.js",
+    "static/js/787.32e3e1a5.chunk.js": "/FrontendPractice-ableton/static/js/787.32e3e1a5.chunk.js",
+    "static/media/ableton.avif": "/FrontendPractice-ableton/static/media/ableton.a70ac2281dc2e2059a36.avif",
+    "index.html": "/FrontendPractice-ableton/index.html",
+    "main.9276184b.css.map": "/FrontendPractice-ableton/static/css/main.9276184b.css.map",
+    "main.cc827e56.js.map": "/FrontendPractice-ableton/static/js/main.cc827e56.js.map",
+    "787.32e3e1a5.chunk.js.map": "/FrontendPractice-ableton/static/js/787.32e3e1a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9276184b.css",
+    "static/js/main.cc827e56.js"
+  ]
+}
