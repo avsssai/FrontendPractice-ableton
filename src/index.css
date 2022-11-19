@@ -4,10 +4,10 @@
 
 @layer components {
 	.text-heading {
-		@apply text-lg lg:text-3xl lg:w-textWidth xl:w-textWidthXL font-medium leading-8 mb-textMargin mt-sectionMargin;
+		@apply text-lg lg:text-3xl mx-auto lg:w-textWidth xl:w-textWidthXL font-medium leading-normal lg:leading-snug mb-textMargin mt-sectionMargin xl:mt-sectionMarginXL;
 	}
 	.text-paragraph {
-		@apply text-sm leading-6 lg:text-lg lg:w-textWidth xl:w-textWidthXL;
+		@apply text-sm leading-normal lg:leading-loose mx-auto lg:text-base lg:w-textWidth xl:w-textWidthXL;
 	}
 }
 

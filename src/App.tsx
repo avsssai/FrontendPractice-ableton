@@ -76,30 +76,32 @@ function App() {
 			</div>
 			<div className='RestOfLanding mt-landing'>
 				<MaxWidthWrapper>
-					<div className='section mb-sectionMargin lg:w-textWidth'>
-						<div className='text-heading'>
-							We make{" "}
-							<a href='https://goessomewhere.com' className='text-blue-700'>
-								Live
-							</a>
-							,{" "}
-							<a href='https://goessomewhere.com' className='text-blue-700'>
-								Push
-							</a>{" "}
-							and{" "}
-							<a href='https://goessomewhere.com' className='text-blue-700'>
-								Link
-							</a>{" "}
-							— unique software and hardware for music creation and performance. With these products, our
-							community of users creates amazing things.
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL'>
+						<div className='text-content w-full '>
+							<div className='text-heading'>
+								We make{" "}
+								<a href='https://goessomewhere.com' className='text-blue-700'>
+									Live
+								</a>
+								,{" "}
+								<a href='https://goessomewhere.com' className='text-blue-700'>
+									Push
+								</a>{" "}
+								and{" "}
+								<a href='https://goessomewhere.com' className='text-blue-700'>
+									Link
+								</a>{" "}
+								— unique software and hardware for music creation and performance. With these products,
+								our community of users creates amazing things.
+							</div>
+							<p className='text-paragraph'>
+								Ableton was founded in 1999 and released the first version of Live in 2001. Our products
+								are used by a community of dedicated musicians, sound designers, and artists from across
+								the world.
+							</p>
 						</div>
-						<p className='text-paragraph'>
-							Ableton was founded in 1999 and released the first version of Live in 2001. Our products are
-							used by a community of dedicated musicians, sound designers, and artists from across the
-							world.
-						</p>
 					</div>
-					<div className='section mb-sectionMargin relative py-10'>
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL relative py-10'>
 						<div className='collage-1 flex gap-7 align-center justify-center isolate items-center xl:mt-24'>
 							<div className='image1-wrapper z-10 xl:mr-24'>
 								<img
@@ -115,11 +117,11 @@ function App() {
 									className='w-full block my-auto'
 								/>
 							</div>
-							<div className='backgroundYellow absolute h-[58.88vw] w-[58.88vw] left-[32.88vw] xl:left-[555.55px] lg:w-[933.33px] xl:h-[933.33px] top-0 bg-amber-200 z-1'></div>
+							<div className='backgroundYellow absolute h-[58.88vw] w-[58.88vw] left-[32.88vw] xl:left-[555.55px] xl:w-[933.33px] xl:h-[933.33px] top-0 bg-amber-200 z-1'></div>
 						</div>
 					</div>
 
-					<div className='section mb-sectionMargin relative pt-1 lg:w-textWidth'>
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL relative pt-1'>
 						<div className='text-heading '>
 							Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow,
 							it’s incredibly rewarding.
@@ -129,7 +131,7 @@ function App() {
 							passion for what we make, and the people we make it for.
 						</p>
 					</div>
-					<div className='section mb-sectionMargin relative lg:w-textWidth'>
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL relative'>
 						<div className='text-heading '>
 							We are more than 350 people from 30 different countries divided between our headquarters in
 							Berlin and our offices in Los Angeles and Tokyo.
@@ -142,7 +144,7 @@ function App() {
 							helping to shape the future of music culture.
 						</p>
 					</div>
-					<div className='collage2 flex relative py-10 xl:py-3  gap-7 isolate mb-sectionMargin xl:mb-0 xl:h-[1200px] '>
+					<div className='collage2 flex relative py-10 xl:py-3  gap-7 isolate mb-sectionMargin  xl:mb-0 xl:h-[1200px] '>
 						<div className='leftImages flex flex-col gap-5 z-10 xl:mt-24 xl:mr-24'>
 							<div className='image xl:mb-24'>
 								<img src={`${process.env.PUBLIC_URL}/left1.jpg`} alt='Man writing on white board.' />
@@ -159,7 +161,7 @@ function App() {
 						</div>
 						<div className='background absolute bg-green-200 w-halfPlusMargin h-full xl:h-[1200px] xl:w-[933.33px] top-0 left-[-8.33vw] z-0'></div>
 					</div>
-					<div className='section mb-sectionMargin relative lg:w-textWidth p-1'>
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL relative p-1'>
 						<div className='text-heading'>
 							We believe it takes focus to create truly outstanding instruments. We only work on a few
 							products and we strive to make them great.
@@ -172,10 +174,10 @@ function App() {
 							openly encouraged.
 						</p>
 					</div>
-					<div className='section poster-wrapper mb-sectionMargin'>
+					<div className='section poster-wrapper mb-sectionMargin xl:mb-sectionMarginXL'>
 						<img src={`${process.env.PUBLIC_URL}/poster.avif`} alt='a screen showing music software.' />
 					</div>
-					<div className='section mb-sectionMargin relative lg:w-textWidth'>
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL relative'>
 						<div className='text-heading'>
 							We’re passionate about what we do, but we’re equally passionate about improving who we are.
 						</div>
@@ -191,7 +193,7 @@ function App() {
 							production techniques and best practices.
 						</p>
 					</div>
-					<div className='collage3 flex relative py-10 gap-16 isolate mb-sectionMargin'>
+					<div className='collage3 flex relative py-10 gap-16 isolate mb-sectionMargin xl:mb-sectionMarginXL'>
 						<div className='leftImages flex flex-col gap-5 z-10 my-auto xl:mr-32'>
 							<div className='image'>
 								<img src={`${process.env.PUBLIC_URL}/left-2-1.jpg`} alt='Man writing on white board.' />
@@ -205,7 +207,7 @@ function App() {
 						</div>
 						<div className='background absolute bg-purple-300 w-[66.66vw] xl:w-[1066.66px] h-full xl:h-[933.33px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-0'></div>
 					</div>
-					<div className='section mb-sectionMargin relative'>
+					<div className='section mb-sectionMargin xl:mb-sectionMarginXL relative'>
 						<div className='text-heading'>
 							We want our employees to love it here. Since we’re looking for exceptional talent from
 							around the world, we will do everything we can to make your transition as easy as possible.
@@ -219,7 +221,7 @@ function App() {
 							activities.
 						</p>
 					</div>
-					<div className='aboutus-card mb-sectionMargin text-xl xl:flex xl:h-[666.66px]'>
+					<div className='aboutus-card mb-sectionMargin lg:mb-sectionMarginXL text-xl xl:flex xl:h-[666.66px]'>
 						<div className='xl:flex-1'>
 							<img
 								src={`${process.env.PUBLIC_URL}/photo-8.jpg`}
@@ -244,9 +246,11 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className='footer my-sectionMargin'>
-						<div className='logo text-4xl font-semibold mb-sectionMargin'>Ableton</div>
-						<div className='row-wrapper flex flex-col lg:flex-row lg:gap-24 lg:mb-sectionMargin md:text-sm xl:text-lg'>
+					<div className='footer my-sectionMargin lg:my-sectionMarginXL'>
+						<div className='logo text-4xl lg:text-6xl font-semibold mb-sectionMargin lg:mb-[66.67px] '>
+							Ableton
+						</div>
+						<div className='row-wrapper flex flex-col lg:flex-row lg:gap-24 lg:mb-[66.67px] md:text-sm xl:text-lg'>
 							<div className='newsletter flex-1'>
 								<h3 className='title font-semibold lg:text-sm xl:text-lg'>Sign up to our newsletter</h3>
 								<div className='text mb-textMargin'>
@@ -300,7 +304,7 @@ function App() {
 									</div>
 								</div>
 							</div>
-							<div className='education-links mb-sectionMargin lg:mb-0 flex-1'>
+							<div className='education-links mb-sectionMargin xl:mb-sectionMarginXL lg:mb-0 flex-1'>
 								<h3 className='title font-semibold text-sm xl:text-lg'>Education</h3>
 								<ul className='flex flex-col gap-1'>
 									<li className='flex'>
@@ -330,8 +334,8 @@ function App() {
 								</ul>
 							</div>
 						</div>
-						<div className='row-wrapper flex flex-col lg:flex-row lg:gap-24 lg:mb-sectionMargin justify-center lg:text-sm xl:text-lg'>
-							<div className='community-links mb-sectionMargin lg:mb-0 flex-1'>
+						<div className='row-wrapper flex flex-col lg:flex-row lg:gap-24 lg:mb-[66.67px] justify-center lg:text-sm xl:text-lg'>
+							<div className='community-links mb-sectionMargin xl:mb-sectionMarginXL lg:mb-0 flex-1'>
 								<h3 className='title font-semibold text-sm xl:text-lg'>Community</h3>
 								<ul className='flex flex-col gap-1'>
 									<li className='flex'>
@@ -360,7 +364,7 @@ function App() {
 									</li>
 								</ul>
 							</div>
-							<div className='community-links mb-sectionMargin lg:mb-0 flex-1'>
+							<div className='community-links mb-sectionMargin lg:mb-[66.66px] flex-1'>
 								<h3 className='title font-semibold text-sm xl:text-lg'>Distributors</h3>
 								<ul className='flex flex-col gap-1'>
 									<li className='flex'>
@@ -381,7 +385,7 @@ function App() {
 									</li>
 								</ul>
 							</div>
-							<div className='languages-title mb-sectionMargin lg:mb-0 flex-1'>
+							<div className='languages-title mb-sectionMargin xl:mb-sectionMarginXL lg:mb-0 flex-1'>
 								<h3 className='font-bold mb-2 lg:text-sm xl:text-lg'>Languages and Location</h3>
 								<div className='dropdownsWrapper flex gap-3'>
 									<select
@@ -415,8 +419,8 @@ function App() {
 								</div>
 							</div>
 						</div>
-						<div className='flex flex-col lg:flex-row justify-between lg:items-end'>
-							<div className='contact-links mb-sectionMargin lg:mb-0 flex flex-col lg:flex-row gap-3  lg:text-sm'>
+						<div className='flex flex-col lg:flex-row justify-between lg:items-start'>
+							<div className='contact-links mb-sectionMargin xl:self-end lg:mb-0 flex flex-col lg:flex-row gap-3  lg:text-sm'>
 								<h3 className='title text-sm mb-3 lg:mb-0'>Contact Us</h3>
 								<ul className='links flex flex-col lg:flex-row gap-3'>
 									<li className='flex mb-3'>
